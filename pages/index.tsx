@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       hello {message}
-      <input type="text" onInput={(e) => setMessage(e.target.value)}/>
+      <input type="text" onInput={(e) => setMessage((e.target as HTMLInputElement).value)}/>
     </div>
   )
 }
