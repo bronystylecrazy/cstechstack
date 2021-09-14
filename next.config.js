@@ -1,6 +1,14 @@
 module.exports = {
   env:{
-    MESSAGE: "Sirawit Pratoomsuwan"
+    SAVE_TOKEN: "cs212021",
+    JWP_SECRET: "914ffdef-6bc4-4dda-a85c-52c5722c2255",
+    NEXT_PUBLIC_SUPABASE_URL: "https://tgpiitdfusjfudffwsud.supabase.co",
+    NEXT_PUBLIC_SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYzMTQ1NjQ3MiwiZXhwIjoxOTQ3MDMyNDcyfQ.FNWvYDoZpnpiYQ-TlDnWV9tqU95itq-G8vCo7xLIakE",
+    // NEXT_PUBLIC_SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNjMxNDc2OTQzLCJzdWIiOiIxYjJmZDE0NC02MDdkLTQyNTctODZhNS05ZDY5OGIxM2U5ODEiLCJlbWFpbCI6InNpcmF3aXQuY3NzaXRAbWFpbC5rbXV0dC5hYy50aCIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwifSwidXNlcl9tZXRhZGF0YSI6bnVsbCwicm9sZSI6ImF1dGhlbnRpY2F0ZWQifQ.ybmEfolJs12qR8iLuFnrUPi9qTGuYQCw-lW_fj9b5PA",
+    NEXT_MASTER_SUPABASE_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYXV0aGVudGljYXRlZCIsImlhdCI6MTYzMTQ1NjQ3MiwiZXhwIjoxOTQ3MDMyNDcyfQ.KoYCtZHS4L8MQnTNG4KFPTs9rw5NVlWOMiJ5DJQ0nU4eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoic2VydmljZV9yb2xlIiwiaWF0IjoxNjMxNDU2NDcyLCJleHAiOjE5NDcwMzI0NzJ9.oY4sf7xHtiMyCifep4QldX8uUExFg0j-mj6ZzP405P4"
   },
   reactStrictMode: true,
+  images: {
+    domains: ['raw.githubusercontent.com'],
+  },
 }
